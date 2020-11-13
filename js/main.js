@@ -98,7 +98,8 @@
         });
         $('#main-slider').slick({
            autoplay: true,
-           autoplaySpeed: 10000,
+           autoplaySpeed: 4000,
+           autoplayHoverPause:false,
            dots: true,
            fade: true,
            prevArrow: '<div class="slick-prev"><i class="fa fa-chevron-left"></i></div>',
