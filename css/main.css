@@ -963,7 +963,7 @@ button {
   width: 100%;
 }
 .project-item .overlay {
-  background-color: #e31e25;
+  background-color: rgb(227, 30, 37, 0.8);
   content: "";
   position: absolute;
   width: 100%;
