@@ -30,7 +30,7 @@ function mainHome(){
         tempHome=CreateCardHome(jsonData[i]);
         allCardsHome+=tempHome;
     }
-    console.log(allCardsHome);
+    // console.log(allCardsHome);
     insertProjectsHome.innerHTML=allCardsHome;
 }
 
