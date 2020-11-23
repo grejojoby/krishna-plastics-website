@@ -674,14 +674,12 @@ button {
 .viewport-lg .primary-header .header-menu-wrap {
   display: block !important;
 }
-.about-section {
-}
+
 .about-wrap {
   display: flex;
   align-items: center;
 }
-.about-content {
-}
+
 .about-content h2 {
   margin-bottom: 20px;
 }
@@ -790,8 +788,7 @@ button {
 .service-carousel {
   position: relative;
 }
-.service-carousel .owl-nav {
-}
+
 .service-carousel .owl-nav div {
   position: absolute;
   width: 50px;
@@ -823,8 +820,7 @@ button {
   background: url(../img/bg-dots.png) 0 0 repeat;
   z-index: -1;
 }
-.service-content {
-}
+
 .service-content span {
   font-family: work sans, sans-serif;
   font-size: 12px;
@@ -862,10 +858,7 @@ button {
   line-height: 1.6;
   margin: 0;
 }
-.promo-section {
-}
-.promo-wrap {
-}
+
 .promo-item {
   padding: 30px 15px;
 }
@@ -906,8 +899,7 @@ button {
   top: 0;
   z-index: -1;
 }
-.work-pro-item {
-}
+
 .work-pro-item .number {
   font-size: 18px;
   color: #fff;
@@ -942,8 +934,7 @@ button {
   color: #ddd;
   margin: 0;
 }
-.projects-section {
-}
+
 .projects-section .container-fluid {
   padding: 0;
 }
