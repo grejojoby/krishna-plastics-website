@@ -75,7 +75,7 @@
                                     <li><a href="services-2.html">Services 02</a></li>
                                 </ul>
                             </li> -->
-                            <li><a href="projects.html">Our Projects</a></li>
+                            <li><a href="projects.html">Products</a></li>
                             <!-- <li><a href="#">Pages</a> 
                                 <ul>
                                     <li><a href="projects.html">Our Projects</a></li>
@@ -96,7 +96,8 @@
                         </ul>
                     </div>
                     <div class="header-right">
-                        <a class="menu-btn" href="#">Request a Quote</a>
+                        <a href="tel:+919136344859" class="menu-btn">Call Us</a>
+                        <!-- <a class="menu-btn" href="#">Request a Quote</a> -->
 
                         <div class="mobile-menu-icon">
                             <div class="burger-menu">
@@ -140,22 +141,26 @@
                         <h2>Get in touch with us & <br>send us message today!</h2>
                         <p>Redison is a different kind of architecture practice. Founded by LoganCee in 1991, we’re an
                             employee-owned firm pursuing a democratic design process that values everyone’s input.</p>
-                        <h3>Gala No 47, New Bhandup Industrial Estate,  Opp. Fugga Wala Compound, Quarry Road behind Mangataram Petrol Pump, Bhandup West, Mumbai - 400078</h3>
-                        <h4><span>Email:</span>krishnaplastics789@gmail.com <br> <span>Phone:</span> (+91) 91363 44859<br></h4>
+                        <h3>Gala No 47, New Bhandup Industrial Estate, Opp. Fugga Wala Compound, Quarry Road behind
+                            Mangataram Petrol Pump, Bhandup West, Mumbai - 400078</h3>
+                        <h4><span>Email:</span>krishnaplastics789@gmail.com <br> <span>Phone:</span> (+91) 91363
+                            44859<br></h4>
                     </div>
                 </div>
                 <div class="col-md-6 padding-15">
+                    <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
                     <div class="contact-form">
-                        <form action="https://formspree.io/f/maylbavw" method="POST" id="ajax_form"
-                            class="form-horizontal">
+                        <form action="https://formkeep.com/f/7c403e139290" accept-charset="UTF-8"
+                            enctype="multipart/form-data" method="POST" target="dummyframe" id="ajax_form" class="form-horizontal">
+                            <!-- <input type="hidden" name="utf8" value="✓"> -->
                             <div class="form-group colum-row row">
                                 <div class="col-sm-6">
                                     <input type="text" id="name" name="name" class="form-control" placeholder="Name"
                                         required>
                                 </div>
                                 <div class="col-sm-6">
-                                    <input type="email" id="email" name="_replyto" class="form-control" placeholder="Email"
-                                        required>
+                                    <input type="email" id="email" name="email" class="form-control"
+                                        placeholder="Email" required>
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -164,18 +169,21 @@
                                         class="form-control message" placeholder="Message" required></textarea>
                                 </div>
                             </div>
+                            <input type="hidden" name="_next" value="//path/contact.html" />
                             <div class="form-group row">
                                 <div class="col-md-12">
                                     <button id="submit" class="default-btn" type="submit">Send Message</button>
                                 </div>
                             </div>
-                            <div id="form-messages" class="alert" role="alert"></div>
+                            <div id="form-messages" class="alert" role="alert">We recieved your message. We will
+                                contact you shortly.</div>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <section class="widget-section padding">
         <div class="container">
             <div class="row">
@@ -199,12 +207,13 @@
                 <div class="col-lg-4 col-sm-6 sm-padding">
                     <div class="widget-content">
                         <h4>Factory</h4>
-                        <p>Gala No 47, New Bhandup Industrial Estate,  Opp. Fugga Wala Compound, Quarry Road behind Mangataram Petrol Pump, Bhandup West, Mumbai - 400078</p>
+                        <p>Gala No 47, New Bhandup Industrial Estate, Opp. Fugga Wala Compound, Quarry Road behind
+                            Mangataram Petrol Pump, Bhandup West, Mumbai - 400078</p>
                         <span>krishnaplastics789@gmail.com</span>
                         <span>(+91) 91363 44859</span>
                     </div>
                 </div>
-               
+
             </div>
         </div>
     </section>
@@ -241,6 +250,14 @@
     <script src="js/vendor/wow.min.js"></script>
 
     <script src="js/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#submit').click(function () {
+                $('.alert').show()
+            })
+        });
+    </script>
 </body>
 
 <!-- contact.html  29 Nov 2019 03:34:47 GMT -->
