@@ -13,7 +13,6 @@ function CreateCard(data){
     <div class="project-item">
         <img src="${data.imagePath}" alt="projects">
         <div class="overlay"></div>
-        <a href="#" class="view-icon ajax-popup-link"> <i class="fas fa-expand"></i></a>
         <div class="projects-content">
             <a href="#" class="category">${data.tag}</a>
             <h3><a href="#" class="tittle">${data.title}</a></h3>
