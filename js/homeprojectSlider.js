@@ -1,8 +1,3 @@
-
-
-
-
-
 const insertProjectsHome=document.getElementById('projects-carousel');
 var allCardsHome="";
 var tempHome="";
@@ -19,9 +14,6 @@ function CreateCardHome(data){
 </div>`
 }
 
-
-
-
 function mainHome(){    
 
     for(var i=0;i<jsonData.length;i++){
@@ -31,6 +23,5 @@ function mainHome(){
     // console.log(allCardsHome);
     insertProjectsHome.innerHTML=allCardsHome;
 }
-
 
 mainHome()

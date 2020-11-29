@@ -1,8 +1,3 @@
-
-
-
-
-
 const insertProjects=document.getElementById('projectsJson');
 var allCards="";
 var temp="";
@@ -21,9 +16,6 @@ function CreateCard(data){
 </div>`
 }
 
-
-
-
 function main(){    
 
     for(var i=0;i<jsonData.length;i++){
@@ -33,6 +25,5 @@ function main(){
     // console.log(allCards);
     insertProjects.innerHTML=allCards;
 }
-
 
 main()
