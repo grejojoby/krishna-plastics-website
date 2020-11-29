@@ -717,7 +717,7 @@ button {
   padding-top: 80px;
 }
 .service-section:before {
-  background-image: url(../img/map-pattern.png);
+  background-image: url(../img/map-pattern.webp);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
@@ -817,7 +817,7 @@ button {
   height: 100%;
   left: 0;
   top: 0;
-  background: url(../img/bg-dots.png) 0 0 repeat;
+  background: url(../img/bg-dots.webp) 0 0 repeat;
   z-index: -1;
 }
 
@@ -878,7 +878,7 @@ button {
   margin-bottom: 0;
 }
 .work-pro-section {
-  background-image: url(../img/d-slide-6.jpg);
+  background-image: url(../img/d-slide-6.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1056,7 +1056,7 @@ button {
   height: 100%;
   left: 0;
   top: 0;
-  background: url(../img/bg-dots.png) 0 0 repeat;
+  background: url(../img/bg-dots.webp) 0 0 repeat;
   z-index: -1;
 }
 .project-single-content {
@@ -1081,7 +1081,7 @@ button {
   display: inline-block;
 }
 .cta-section {
-  background-image: url(../img/cta-bg.jpg);
+  background-image: url(../img/cta-bg.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1145,7 +1145,7 @@ button {
   margin-bottom: 30px;
 }
 .counter-section {
-  background-image: url(../img/counter-bg.jpg);
+  background-image: url(../img/counter-bg.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1197,7 +1197,7 @@ button {
   height: 100%;
   left: 0;
   top: 0;
-  background: url(../img/bg-dots.png) 0 0 repeat;
+  background: url(../img/bg-dots.webp) 0 0 repeat;
   z-index: -1;
 }
 .team-wrap .col-lg-3 {
@@ -1317,7 +1317,7 @@ button {
   height: 100%;
   left: 0;
   top: 0;
-  background: url(../img/bg-dots.png) 0 0 repeat;
+  background: url(../img/bg-dots.webp) 0 0 repeat;
   z-index: -1;
 }
 .testi-item img {
@@ -1390,7 +1390,7 @@ button {
   background-color: #e31e25;
 }
 .page-header {
-  background-image: url(../img/page-header.jpg);
+  background-image: url(../img/page-header.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1462,7 +1462,7 @@ button {
   position: absolute;
   left: 0;
   top: 0;
-  background: url(../img/bg-dots.png) 0 0 repeat;
+  background: url(../img/bg-dots.webp) 0 0 repeat;
   z-index: -1;
 }
 .contact-info h3 {
@@ -1505,7 +1505,7 @@ button {
   height: 100%;
   left: 0;
   top: 0;
-  background: url(../img/bg-dots.png) 0 0 repeat;
+  background: url(../img/bg-dots.webp) 0 0 repeat;
   z-index: -1;
 }
 .blog-item .blog-thumb {
@@ -1770,7 +1770,7 @@ blockquote .dots {
   height: 100%;
   left: 0;
   top: 0;
-  background: url(../img/bg-dots.png) 0 0 repeat;
+  background: url(../img/bg-dots.webp) 0 0 repeat;
   z-index: -1;
 }
 blockquote p {
@@ -2029,7 +2029,7 @@ blockquote span {
   height: 100%;
   left: 0;
   top: 0;
-  background: url(../img/bg-dots.png) 0 0 repeat;
+  background: url(../img/bg-dots.webp) 0 0 repeat;
   z-index: -1;
 }
 .sponsor-item {
