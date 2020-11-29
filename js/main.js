@@ -131,7 +131,7 @@
         autoplay: false,
         smartSpeed: 800,
         nav: true,
-        navText: ['<i class="fa fa-caret-left"></i>', '<i class="fa fa-caret-right"></i>'],
+        navText: ['<i class="fas fa-caret-left"></i>', '<i class="fas fa-caret-right"></i>'],
         dots: false,
         responsive : {
             0 : {
@@ -158,7 +158,7 @@
         autoplay: false,
         smartSpeed: 500,
         nav: true,
-        navText: ['<i class="fa fa-caret-left"></i>', '<i class="fa fa-caret-right"></i>'],
+        navText: ['<i class="fas fa-caret-left"></i>', '<i class="fas fa-caret-right"></i>'],
         dots: false,
         responsive : {
             0 : {
