@@ -99,9 +99,12 @@
         $('#main-slider').slick({
            autoplay: true,
            autoplaySpeed: 4000,
+           useCSS : true,
            autoplayHoverPause:false,
            dots: true,
+           cssEase: 'ease',
            fade: true,
+           speed: 0,
            prevArrow: '<div class="slick-prev"><i class="fa fa-chevron-left"></i></div>',
                 nextArrow: '<div class="slick-next"><i class="fa fa-chevron-right"></i></div>'
         });
