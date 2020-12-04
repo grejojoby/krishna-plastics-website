@@ -112,28 +112,7 @@
             </div>
         </div>
     </header>
-    <div class="mapouter">
-        <div class="gmap_canvas"><iframe width="100%" height="350" id="gmap_canvas"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15076.859894608053!2d72.9283455!3d19.142065!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8e0555e8752fedb0!2sKrishna%20Plastics!5e0!3m2!1sen!2sin!4v1606482411826!5m2!1sen!2sin"
-                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                href="https://www.emojilib.com/"></a></div>
 
-        <style>
-            .mapouter {
-                position: relative;
-                text-align: right;
-                height: 350px;
-                width: 100%;
-            }
-
-            .gmap_canvas {
-                overflow: hidden;
-                background: none !important;
-                height: 350px;
-                width: 100%;
-            }
-        </style>
-    </div>
     <section class="contact-section bg-grey padding">
         <div class="dots"></div>
         <div class="container">
@@ -168,6 +147,12 @@
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-12">
+                                    <input type="number" id="pno" name="pno" class="form-control"
+                                        placeholder="Phone Number" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-12">
                                     <textarea id="message" name="message" cols="30" rows="5"
                                         class="form-control message" placeholder="Message" required></textarea>
                                 </div>
@@ -175,7 +160,7 @@
                             <input type="hidden" name="_next" value="//path/contact.html" />
                             <div class="form-group row">
                                 <div class="col-md-12">
-                                    <button id="submit" class="default-btn" type="submit">Send Message</button>
+                                    <button id="submit" class="default-btn" type="submit">Submit</button>
                                 </div>
                             </div>
                             <div id="form-messages" class="alert" role="alert">We recieved your message. We will
@@ -186,7 +171,28 @@
             </div>
         </div>
     </section>
+    <div class="mapouter">
+        <div class="gmap_canvas"><iframe width="100%" height="350" id="gmap_canvas"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15076.859894608053!2d72.9283455!3d19.142065!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8e0555e8752fedb0!2sKrishna%20Plastics!5e0!3m2!1sen!2sin!4v1606482411826!5m2!1sen!2sin"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://www.emojilib.com/"></a></div>
 
+        <style>
+            .mapouter {
+                position: relative;
+                text-align: right;
+                height: 350px;
+                width: 100%;
+            }
+
+            .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: 350px;
+                width: 100%;
+            }
+        </style>
+    </div>
     <section class="widget-section padding">
         <div class="container">
             <div class="row">
@@ -227,27 +233,47 @@
     </footer>
     <a data-scroll href="#top" id="scroll-to-top"><i class="fas fa-caret-up"></i></a>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"
+        integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ=="
+        crossorigin="anonymous"></script>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js" integrity="sha512-X7kCKQJMwapt5FCOl2+ilyuHJp+6ISxFTVrx+nkrhgplZozodT9taV2GuGHxBgKKpOJZ4je77OuPooJg9FJLvw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"
+        integrity="sha512-X7kCKQJMwapt5FCOl2+ilyuHJp+6ISxFTVrx+nkrhgplZozodT9taV2GuGHxBgKKpOJZ4je77OuPooJg9FJLvw=="
+        crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.12.0/headroom.min.js" integrity="sha512-9UsrKTYzS9smDm2E58MLs0ACtOki+UC4bBq4iK5wi7lJycwqcaiHxr1bdEsIVoK0l5STEzLUdYyDdFQ5OEjczw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.12.0/headroom.min.js"
+        integrity="sha512-9UsrKTYzS9smDm2E58MLs0ACtOki+UC4bBq4iK5wi7lJycwqcaiHxr1bdEsIVoK0l5STEzLUdYyDdFQ5OEjczw=="
+        crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.1.0/js/smooth-scroll.min.js" integrity="sha512-JCNPfBVTegULJedA6tfPEBNWYXZN+YcStEX3fjTzmxu1dHMXI8jGPcU4U7SiQlS3dJ+v3I2X1iBzk3pk1++riw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.1.0/js/smooth-scroll.min.js"
+        integrity="sha512-JCNPfBVTegULJedA6tfPEBNWYXZN+YcStEX3fjTzmxu1dHMXI8jGPcU4U7SiQlS3dJ+v3I2X1iBzk3pk1++riw=="
+        crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.1/venobox.min.js" integrity="sha512-6mm1Gra+9mSztlk6Q45F1soEHmkduyd2ponCIWNo5pr0lgcr8d79GQjQ3Nw0uRR3/+y/OZGklAi38yE1QSNpCw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.1/venobox.min.js"
+        integrity="sha512-6mm1Gra+9mSztlk6Q45F1soEHmkduyd2ponCIWNo5pr0lgcr8d79GQjQ3Nw0uRR3/+y/OZGklAi38yE1QSNpCw=="
+        crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery-waypoints@2.0.5/waypoints.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js" integrity="sha512-51WDTV7haD9BBDc8RWH2r5TnuSiRyAqEnbGyuKHYn+qpYCrCckxFeqlr1I5UoOULijyLV2vnHO9LS4MrAzHxwQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"
+        integrity="sha512-51WDTV7haD9BBDc8RWH2r5TnuSiRyAqEnbGyuKHYn+qpYCrCckxFeqlr1I5UoOULijyLV2vnHO9LS4MrAzHxwQ=="
+        crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous"></script>
 
     <script src="js/main.js"></script>
     <script>
