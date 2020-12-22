@@ -5,7 +5,7 @@ var tempHome="";
 function CreateCardHome(data){
 
     return `<div class="project-item">
-    <img src="${data.imagePath}" alt="projects">
+    <img src="${data.imagePath}" alt="${data.title}">
     <div class="overlay"></div>
     <div class="projects-content">
         <a href="#" class="category">${data.tag}</a>

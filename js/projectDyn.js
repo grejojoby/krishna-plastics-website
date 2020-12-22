@@ -6,7 +6,7 @@ function CreateCard(data){
 
     return `<div class="col-lg-4 col-sm-6 padding-15">
     <div class="project-item">
-        <img src="${data.imagePath}" alt="projects">
+        <img src="${data.imagePath}" alt="${data.title}">
         <div class="overlay"></div>
         <div class="projects-content">
             <a href="#" class="category">${data.tag}</a>
